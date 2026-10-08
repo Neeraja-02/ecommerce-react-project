@@ -1,0 +1,171 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Nike Running Shoes",
+      "price": 3000,
+      "category": "Fashion",
+      "img": "https://tse1.mm.bing.net/th/id/OIP._I9FKUImjVLNJxHULKX9fgHaFb?pid=Api&P=0&h=180",
+      "description": "Sports shoes",
+      "rating": 4.5
+    },
+    {
+      "id": "2",
+      "name": "Samsung F23",
+      "price": 20000,
+      "category": "Electronics",
+      "img": "https://tse3.mm.bing.net/th/id/OIP.F4BDvLwWaBkrp1iHpzyeVQHaF6?pid=Api&P=0&h=180",
+      "description": "4GB RAM 128GB ROM",
+      "rating": 3.9
+    },
+    {
+      "id": "3",
+      "name": "Shirt",
+      "price": 2500,
+      "category": "Formal Shirt",
+      "img": "https://tse2.mm.bing.net/th/id/OIP.ImYosSZ46somtxGVbR2etgHaJX?pid=Api&P=0&h=180",
+      "description": "Cotton shirt",
+      "rating": 4.1
+    },
+    {
+      "id": "4",
+      "name": "Samsung smart Tv",
+      "price": 125000,
+      "category": "Electronics",
+      "img": "https://tse2.mm.bing.net/th/id/OIP.JOpLqIn13jA-GIkRyfJNsgHaE8?pid=Api&P=0&h=180",
+      "description": "4k Flat smart Tv",
+      "rating": 5
+    },
+    {
+      "id": "5",
+      "name": "Daily products",
+      "price": 5000,
+      "category": "Daily products",
+      "img": "https://tse2.mm.bing.net/th/id/OIP.ig5aTikx09sP7cWMAuiRzgHaEK?pid=Api&P=0&h=180",
+      "description": "Premium Quality products",
+      "rating": 3.4
+    }
+  ],
+  "orders": [
+    {
+      "id": "617a",
+      "productId": "1",
+      "productName": "Nike Running Shoes",
+      "productImage": "https://tse1.mm.bing.net/th/id/OIP._I9FKUImjVLNJxHULKX9fgHaFb?pid=Api&P=0&h=180",
+      "productRating": 4.5,
+      "totalPrice": 6000,
+      "quantities": 2,
+      "customer": {
+        "name": "neeraja",
+        "email": "neeraja@gmail.com",
+        "phone": "8495626562",
+        "address": "Sanjeeuvu Palli,Nallacheruvu, Anantapur"
+      },
+      "date": "3/5/2026, 7:45:22 PM",
+      "status": "not delivered"
+    },
+    {
+      "id": "9cbf",
+      "productId": "4",
+      "productName": "Samsung smart Tv",
+      "productImage": "https://tse2.mm.bing.net/th/id/OIP.JOpLqIn13jA-GIkRyfJNsgHaE8?pid=Api&P=0&h=180",
+      "productRating": 5,
+      "totalPrice": 125000,
+      "quantities": 1,
+      "customer": {
+        "name": "neeru",
+        "email": "neeru@gmail.com",
+        "phone": "54684543",
+        "address": "kadiri"
+      },
+      "date": "3/5/2026, 7:46:06 PM",
+      "status": "not delivered"
+    },
+    {
+      "id": "7a6f",
+      "productId": "2",
+      "productName": "Samsung F23",
+      "productImage": "https://tse3.mm.bing.net/th/id/OIP.F4BDvLwWaBkrp1iHpzyeVQHaF6?pid=Api&P=0&h=180",
+      "productRating": 3.9,
+      "totalPrice": 40000,
+      "quantities": 2,
+      "customer": {
+        "name": "abc",
+        "email": "abc@gmail.com",
+        "phone": "78456596",
+        "address": "Sanjeeuvu Palli,Nallacheruvu, Anantapur"
+      },
+      "date": "3/5/2026, 7:47:56 PM",
+      "status": "not delivered"
+    },
+    {
+      "id": "f0ad",
+      "productId": "4",
+      "productName": "Samsung smart Tv",
+      "productImage": "https://tse2.mm.bing.net/th/id/OIP.JOpLqIn13jA-GIkRyfJNsgHaE8?pid=Api&P=0&h=180",
+      "productRating": 5,
+      "totalPrice": 250000,
+      "quantities": 2,
+      "customer": {
+        "name": "neeraja",
+        "email": "neerajaangadikurthi@gmail.com",
+        "phone": "943125896",
+        "address": "Sanjeeuvu Palli,Nallacheruvu, Anantapur"
+      },
+      "date": "4/20/2026, 11:04:39 AM",
+      "status": "not delivered"
+    },
+    {
+      "id": "01c4",
+      "productId": "1",
+      "productName": "Nike Running Shoes",
+      "productImage": "https://tse1.mm.bing.net/th/id/OIP._I9FKUImjVLNJxHULKX9fgHaFb?pid=Api&P=0&h=180",
+      "productRating": 4.5,
+      "totalPrice": 3000,
+      "quantities": 1,
+      "customer": {
+        "name": "Neeraja",
+        "email": "neeraja@gmail.com",
+        "phone": "9874563211",
+        "address": "kadiri"
+      },
+      "date": "5/28/2026, 11:34:40 AM",
+      "status": "not delivered"
+    },
+    {
+      "id": "d49c",
+      "productId": "1",
+      "productName": "Nike Running Shoes",
+      "productImage": "https://tse1.mm.bing.net/th/id/OIP._I9FKUImjVLNJxHULKX9fgHaFb?pid=Api&P=0&h=180",
+      "productRating": 4.5,
+      "totalPrice": 3000,
+      "quantities": 1,
+      "customer": {
+        "name": "Neeraja",
+        "email": "neeraja@gmail.com",
+        "phone": "7894561236",
+        "address": "kadiri"
+      },
+      "date": "5/29/2026, 12:30:58 PM",
+      "status": "not delivered"
+    },
+    {
+      "id": "edb0",
+      "productId": "3",
+      "productName": "Shirt",
+      "productImage": "https://tse2.mm.bing.net/th/id/OIP.ImYosSZ46somtxGVbR2etgHaJX?pid=Api&P=0&h=180",
+      "productRating": 4.1,
+      "totalPrice": 2500,
+      "quantities": 1,
+      "customer": {
+        "name": "Neeraja",
+        "email": "neeraja@gmail.com",
+        "phone": "1235698745",
+        "address": "kadiri"
+      },
+      "date": "10/8/2026, 5:47:48 PM",
+      "status": "not delivered"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
