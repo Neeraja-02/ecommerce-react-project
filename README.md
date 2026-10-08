@@ -14,3 +14,66 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+## How to Run the Project
+
+### 1. Clone the Repository
+
+
+git clone https://github.com/Neeraja-02/ecommerce-react-project.git
+cd ecommerce-react-project
+ 
+
+### 2. Install Frontend Dependencies
+
+ 
+npm install
+ 
+
+### 3. Start the Backend
+
+This project uses **JSON Server** as a simple backend.
+
+Open a terminal in the project folder and run:
+
+ 
+json-server --watch db.json --port 5000
+ 
+
+The backend will run at:
+
+http://localhost:5000
+ 
+
+### 4. Start the Frontend
+
+Open another terminal in the same project folder and run:
+
+ 
+npm run dev
+ 
+
+The React application will start at the URL shown in the terminal, usually:
+
+http://localhost:5173
+ 
+
+### 5. Run Both Frontend and Backend
+
+You need to keep **two terminals** running:
+
+**Terminal 1 – Backend:**
+
+ 
+json-server --watch db.json --port 5000
+ 
+
+**Terminal 2 – Frontend:**
+
+ 
+npm run dev
+ 
+
+Then open the frontend URL in your browser.
